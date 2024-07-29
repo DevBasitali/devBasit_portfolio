@@ -1,5 +1,4 @@
 import React from "react";
-import { Tent } from "lucide-react";
 import Card from "../_components/Card";
 
 function Services() {
@@ -10,14 +9,7 @@ function Services() {
           <div className=" max-w-xl py-6 text-center ltr:sm:text-left rtl:sm:text-right">
             <h1 className="text-3xl font-extrabold sm:text-5xl">Services.</h1>
           </div>
-          
-
           <Card/>
-          
-            
-            
-
-          
         </div>
       </section>
     </>
