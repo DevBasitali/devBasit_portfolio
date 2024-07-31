@@ -13,7 +13,7 @@ export default function Home() {
     <HeroBanner/>
     <About/>
     <Services/>
-    <Skill/>
+    {/* <Skill/> */}
 
     </>
   );
