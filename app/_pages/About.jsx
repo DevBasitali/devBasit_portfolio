@@ -9,7 +9,7 @@ function About() {
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-2xl lg:text-5xl">
               About.
             </h1>
-            <p className="text-md mt-4 ml-5 max-w-lg text-white text-left justify-center px-10 sm:text:md md:text-xl lg:text-xl tracking-wide">
+            <p className="text-sm mt-4 ml-5 max-w-lg text-white text-center justify-center px-10 sm:text-center lg:text-left sm:text:md md:text-xl lg:text-xl tracking-wide">
               I'm a passionate full-stack developer proficient in crafting
               dynamic web applications using the MERN stack{" "}
               <strong>(MongoDB, Express, React, Node.js)</strong>. Beyond
@@ -39,7 +39,7 @@ function About() {
         </div>
         
         <div className="relative hidden items-center mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:px-8">
-          <img src="" alt="" />
+          
         </div>
         
       </section>
