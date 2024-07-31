@@ -4,10 +4,11 @@ import Card from "../_components/Card";
 function Services() {
   return (
     <>
-      <section className="relative bg-gray-900 bg-cover bg-center bg-no-repeat border ">
-        <div className="flex items-center flex-col h-screen relative mx-auto max-w-screen-xl px-4 sm:px-6 sm:h-screen md:h-screen lg:flex lg:h-screen lg:px-8">
+      <section className="relative bg-gray-900 bg-cover bg-center bg-no-repeat">
+
+        <div className="relative flex flex-col items-center h-screen mx-auto max-w-screen-xl px-4 sm:px-6 border">
           <div className=" max-w-xl py-6 text-center ltr:sm:text-left rtl:sm:text-right">
-            <h1 className="text-3xl font-extrabold sm:text-5xl">Services.</h1>
+            <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-2xl lg:text-5xl">Services.</h1>
           </div>
           <Card/>
         </div>
@@ -17,3 +18,4 @@ function Services() {
 }
 
 export default Services;
+// sm:h-screen md:h-screen lg:flex lg:h-screen lg:px-8 bordersm:h-screen md:h-screen lg:flex lg:h-screen lg:px-8 border
