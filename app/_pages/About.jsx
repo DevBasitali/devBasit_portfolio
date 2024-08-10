@@ -21,14 +21,14 @@ function About() {
             <div className="flex justify-center flex-row">
               <a
                 target="_blank"
-                className="block w-full rounded border border-blue-900 bg-blue-900 mt-5 px-5 py-3 text-md font-medium text-white hover:bg-blue-700 hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto mr-2"
+                className="block w-full rounded border border-teal-600 bg-teal-600 mt-5 px-5 py-3 text-md font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto mr-2"
                 href=""
               >
                 Download CV
               </a>
               <a
                 target="_blank"
-                className="block w-full rounded border border-blue-900 bg-transparent mt-5 px-5 py-3 text-md font-medium text-white hover:bg-blue-900 hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto ml-2"
+                className="block w-full rounded border border-teal-600 bg-transparent mt-5 px-5 py-3 text-md font-medium text-white hover:bg-teal-600 hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto ml-2"
                 href=""
               >
                 Contact Us
