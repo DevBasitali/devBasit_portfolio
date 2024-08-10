@@ -2,10 +2,11 @@ import React from "react";
 
 function HeroBanner() {
   return (
-    <section className="bg-black bg-cover bg-center bg-no-repeat text-white">
+    <section className="bg-[url('../public/bannerBg02.jpg')] bg-cover bg-center bg-no-repeat">
+
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center bg-">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="text-gray-200 bg-clip-text text-xl font-bold text-transparent sm:text-5xl">
+          <h1 className=" bg-gray-200 bg-clip-text text-xl font-extrabold text-transparent sm:text-5xl">
             Hi, I Am Basit Ali
             <span className="sm:block mt-5"> A Full Stack Web Developer </span>
           </h1>
@@ -20,12 +21,7 @@ function HeroBanner() {
             </a>
           </div>
         </div>
-      
       </div>
-      
-      
-
-      
     </section>
   );
 }

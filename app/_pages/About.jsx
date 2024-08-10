@@ -9,14 +9,13 @@ function About() {
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-2xl lg:text-5xl">
               About.
             </h1>
-            <p className="text-sm mt-4 ml-5 max-w-lg text-white text-center justify-center px-10 sm:text-center lg:text-left sm:text:md md:text-xl lg:text-xl tracking-wide">
+            <p className="text-sm mt-4 ml-5 max-w-lg text-gray-300 text-left justify-center   sm:text:md md:text-xl lg:text-xl tracking-wide">
               I'm a passionate full-stack developer proficient in crafting
               dynamic web applications using the MERN stack{" "}
-              <strong>(MongoDB, Express, React, Node.js)</strong>. Beyond
-              coding, I'm a seasoned social media expert adept at crafting
+              <strong className="text-gray-50">(MongoDB, Express, React, Node.js)</strong>. Beyond
+              coding, I'm a seasoned <span className="text-gray-50 font-bold">Social Media Expert</span> adept at crafting
               engaging content, building strong online communities, and driving
-              brand growth. My expertise lies in leveraging social platforms to
-              amplify digital presence and achieve business objectives.
+              brand growth.
             </p>
 
             <div className="flex justify-center flex-row">
