@@ -5,10 +5,10 @@ function HeroBanner() {
     <section className="bg-[url('../public/bannerBg02.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center bg-">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className="bg-white bg-clip-text text-xl font-extrabold text-transparent sm:text-5xl sm:bg-gray-200">
-            Hi, I Am Basit Ali,
-            <span className="sm:block mt-5"> A Full Stack Web Developer </span>
-            {/* <span className="sm:block mt-5 font-mono text-md"> Specilized In MERN Stack </span> */}
+
+          <h1 className="text-xl font-extrabold sm:text-5xl text-white">
+            Hi, I Am Basit Ali <br/>
+            <span className="sm:block mt-5 text-gray-100"> A Full Stack Web Developer </span>
           </h1>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
