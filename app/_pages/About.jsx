@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { Phone } from "lucide-react";
 
 function About() {
   return (
@@ -12,10 +15,15 @@ function About() {
             <p className="text-sm mt-4 ml-5 max-w-lg text-gray-300 text-left justify-center   sm:text:md md:text-xl lg:text-xl tracking-wide">
               I'm a passionate full-stack developer proficient in crafting
               dynamic web applications using the MERN stack{" "}
-              <strong className="text-gray-50">(MongoDB, Express, React, Node.js)</strong>. Beyond
-              coding, I'm a seasoned <span className="text-gray-50 font-bold">Social Media Expert</span> adept at crafting
-              engaging content, building strong online communities, and driving
-              brand growth.
+              <strong className="text-gray-50">
+                (MongoDB, Express, React, Node.js)
+              </strong>
+              . Beyond coding, I'm a seasoned{" "}
+              <span className="text-gray-50 font-bold">
+                Social Media Expert
+              </span>{" "}
+              adept at crafting engaging content, building strong online
+              communities, and driving brand growth.
             </p>
 
             <div className="flex justify-center flex-row">
@@ -36,11 +44,16 @@ function About() {
             </div>
           </div>
         </div>
-        
-        <div className="relative hidden items-center mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:px-8">
-          
+
+        <div className="relative items-center mx-auto max-w-screen-xl">
+          <img
+            src="/laptop.png"
+            alt="image"
+            width={500}
+            height={500}
+            className="hidden lg:block md:block"
+          />
         </div>
-        
       </section>
     </>
   );
