@@ -6,7 +6,7 @@ function HeroBanner() {
 
       <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center bg-">
         <div className="mx-auto max-w-3xl text-center">
-          <h1 className=" bg-gray-200 bg-clip-text text-xl font-extrabold text-transparent sm:text-5xl sm:bg-gray-200">
+          <h1 className="bg-white bg-clip-text text-xl font-extrabold text-transparent sm:text-5xl sm:bg-gray-200">
             Hi, I Am Basit Ali
             <span className="sm:block mt-5"> A Full Stack Web Developer </span>
             {/* <span className="sm:block mt-5 font-mono text-md"> Specilized In MERN Stack </span> */}

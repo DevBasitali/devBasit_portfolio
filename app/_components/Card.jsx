@@ -4,7 +4,7 @@ export default function Card() {
   return (
     <>
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 h-80 w-auto">
+        <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-4 h-80 w-auto">
           
           <div className="flex flex-col items-center bg-gray-950 rounded-lg shadow-md p-6">
             <img src="SEO.png" alt="" className="w-10 h-10 sm:h-10 sm:w-10 lg:h-20 lg:w-20 md:h-20 md:w-20 mb-4 " />
