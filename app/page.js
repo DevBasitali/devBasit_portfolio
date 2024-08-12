@@ -16,7 +16,7 @@ export default function Home() {
       <Services />
       <Skill />
       <Projects/>
-      <Footer />
+      <Footer/>
     </>
   );
 }

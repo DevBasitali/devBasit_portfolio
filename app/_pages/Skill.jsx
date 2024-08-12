@@ -20,21 +20,21 @@ function Skill() {
         </div>
 
         <div className=" flex items-center justify-center mx-auto max-w-screen-xl rounded-3xl bg-gray-900 my-10">
-          <div className="grid grid-cols-2 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 mx-auto max-w-screen-xl">
+          <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 mx-auto max-w-screen-xl">
             <img src="/HTML.png" alt="HTML" className="w-40 h-30" />
             <img src="/CSS.png" alt="CSS" className="w-40 h-30" />
             <img src="/JAVASCRIPT.png" alt="JAVASCRIPT" className="w-40 h-30" />
             <img src="/tailwind.png" alt="tailwind" className="w-40 h-30" />
           </div>
 
-          <div className="grid grid-cols-2 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+          <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
             <img src="/MONGODB.png" alt="MONGODB" className="w-40 h-30" />
             <img src="/react.png" alt="react" className="w-40 h-30" />
             <img src="/NODEJS.png" alt="NODEJS" className="w-40 h-30" />
             <img src="/CSS.png" alt="CSS" className="w-40 h-30" />
           </div>
 
-          <div className="grid grid-cols-2 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
+          <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
             <img src="/php.png" alt="Php" className="w-40 h-30" />
             <img src="/Mysql.png" alt="mysql" className="w-40 h-30" />
             <img src="/flutter.png" alt="fluter" className="w-40 h-30" />
