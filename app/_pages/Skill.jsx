@@ -35,7 +35,7 @@ function Skill() {
           </div>
 
           <div className="grid grid-cols-1 gap-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
-            <img src="/php.png" alt="Php" className="w-40 h-30" />
+            {/* <img src="/php.png" alt="Php" className="w-40 h-30" /> */}
             <img src="/Mysql.png" alt="mysql" className="w-40 h-30" />
             <img src="/flutter.png" alt="fluter" className="w-40 h-30" />
             <img src="/nextjs.png" alt="nextjs" className="w-40 h-30" />

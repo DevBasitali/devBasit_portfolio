@@ -69,7 +69,7 @@ function About() {
               </div>
 
               <div className=" flex flex-row items-center ">
-                <Map size={15} className="mr-1"/>
+                <Map size={15} className="mr-2"/>
                 <h1 className="text-gray-300">
                   <span className="font-extrabold">Location:</span> Islamabad,
                   Pakistan
