@@ -4,7 +4,7 @@ import Gallery from "../_components/Gallery";
 function Projects() {
   return (
     <>
-      <section id="Projects" className="bg-gray-900 px-14 h-screen">
+      <section id="Projects" className="bg-gray-900 px-14">
         <div className="flex flex-col items-center mx-auto max-w-screen-xl h-max lg:h-screen md:h-max">
           <div className="text-center max-w-xl">
             <h1 className="font-extrabold text-xl sm:text-md md:text-4xl lg:text-4xl mt-10">My Recent Work</h1>

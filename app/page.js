@@ -9,7 +9,7 @@ import HomePage from "./_pages/HomePage";
 
 export default function Home() {
   return (
-    <>
+    <div className="">
       <Header />
       <HomePage/>
       <About />
@@ -17,6 +17,6 @@ export default function Home() {
       <Skill />
       <Projects/>
       <Footer/>
-    </>
+    </div>
   );
 }

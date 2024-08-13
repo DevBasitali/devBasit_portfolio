@@ -8,7 +8,7 @@ function About() {
   return (
     <>
       <section id="About" className="relative flex flex-row bg-gray-950">
-        <div className=" items-center mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:px-8 my-5 rounded-2xl bg-gray-900">
+        <div className=" items-center mx-auto max-w-screen-xl px-4 py-5 sm:px-6 lg:flex lg:h-screen lg:px-8 my-5 rounded-2xl bg-gray-900">
           <div className="max-w-xl text-center ">
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-4xl lg:text-5xl">
               About.
@@ -28,7 +28,7 @@ function About() {
               communities, and driving brand growth.
             </p>
 
-            <div className="flex flex-row justify-center">
+            <div className="flex flex-row justify-center mt-5">
               <a
                 target="_blank"
                 className="block w-full rounded border border-teal-600 bg-teal-600 mt-5 px-5 py-3 text-md font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto mr-2"
