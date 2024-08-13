@@ -4,7 +4,7 @@ import Card from "../_components/Card";
 function Skill() {
   return (
     <>
-      <section className="relative flex flex-row bg-gray-950 px-14">
+      <section id="Skill" className="relative flex flex-row bg-gray-950 px-14">
         <div className="relative items-center mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:px-8">
           <div className="max-w-xl text-center hidden lg:block md:block">
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-4xl lg:text-5xl">

@@ -7,7 +7,7 @@ import { Mail } from "lucide-react";
 function About() {
   return (
     <>
-      <section className="relative flex flex-row bg-gray-950">
+      <section id="About" className="relative flex flex-row bg-gray-950">
         <div className=" items-center mx-auto max-w-screen-xl px-4 py-32 sm:px-6 lg:flex lg:h-screen lg:px-8 my-5 rounded-2xl bg-gray-900">
           <div className="max-w-xl text-center ">
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-4xl lg:text-5xl">

@@ -33,5 +33,14 @@ module.exports = {
       },
     },
   },
+  
+  scrollBehavior:{
+    smooth: 'smooth'
+
+  },
+  variants: {
+    scrollBehavior: ['responsive'],
+  },
+
   plugins: [],
 };
