@@ -4,7 +4,7 @@ import React from "react";
 function HomePage() {
   return (
     <>
-      <section id="Home" className="bg-[url('../public/bannerBg02.jpg')] bg-cover bg-center bg-no-repeat">
+      <section id="Home" className="bg-[url('../public/BlackBg.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center bg-">
           <div className="mx-auto max-w-3xl text-center">
             <h1 className="text-xl font-extrabold sm:text-5xl text-white">

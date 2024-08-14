@@ -5,16 +5,13 @@ function Skill() {
   return (
     <>
       <section id="Skill" className="px-10 grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2 bg-gray-950 ">
-        <div className=" items-center mx-auto max-w-screen-xl px-4 sm:px-6 lg:flex lg:h-screen lg:px-8">
+        <div className=" items-center mx-auto max-w-screen-xl px-4 mt-5 sm:px-6 lg:flex lg:h-screen lg:px-8">
           <div className="max-w-xl text-center">
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-4xl lg:text-5xl">
               Skills.
             </h1>
-            <p className="text-sm mt-4 ml-5 max-w-lg text-gray-300 text-left justify-center sm:text:md md:text-xl lg:text-xl tracking-wide">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-              eum nam a omnis, quae eos, illum quis doloribus iste rerum nostrum
-              unde quibusdam sed molestiae consequatur voluptas autem incidunt
-              aliquam?
+            <p className="text-sm mt-4 ml-5 max-w-lg text-gray-300 sm:text:md md:text-xl lg:text-xl tracking-wide">
+            I have a strong foundation in web development with a focus on creating user-friendly and visually appealing websites.
             </p>
           </div>
         </div>
