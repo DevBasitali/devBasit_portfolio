@@ -3,7 +3,7 @@ import { Mail } from "lucide-react";
 
 function Header() {
   return (
-    <header className="bg-gray-950">
+    <header className="bg-teal-900">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-0 items-center justify-center md:h-20 lg:h-20">
           <div className="hidden md:block lg:block">
@@ -11,50 +11,50 @@ function Header() {
               <ul className="flex items-center gap-6 text-lg">
                 <li>
                   <a
-                    className="text-gray-200 transition hover:text-teal-600"
+                    className="text-gray-200 transition font-bold tracking-wider hover:text-teal-600"
                     href="#Home"
                   >
                     {" "}
-                    Home{" "}
+                    HOME{" "}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    className="text-gray-200 transition hover:text-teal-600"
+                    className="text-gray-200 transition font-bold tracking-wider hover:text-teal-600"
                     href="#About"
                   >
                     {" "}
-                    About{" "}
+                    ABOUT{" "}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    className="text-gray-200 transition hover:text-teal-600"
+                    className="text-gray-200 transition font-bold tracking-wider hover:text-teal-600"
                     href="#Services"
                   >
                     {" "}
-                    Services{" "}
+                    SERVICES{" "}
                   </a>
                 </li>
 
                 <li>
                   <a
-                    className="text-gray-200 transition hover:text-teal-600"
+                    className="text-gray-200 transition font-bold tracking-wider hover:text-teal-600"
                     href="#Skill"
                   >
                     {" "}
-                    Skills{" "}
+                    SKILLS{" "}
                   </a>
                 </li>
                 <li>
                   <a
-                    className="text-gray-200 transition hover:text-teal-600"
+                    className="text-gray-200 transition font-bold tracking-wider hover:text-teal-600"
                     href="#Projects"
                   >
                     {" "}
-                    Projects{" "}
+                    PROJECTS{" "}
                   </a>
                 </li>
               </ul>
