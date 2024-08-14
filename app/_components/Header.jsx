@@ -3,7 +3,11 @@ import { Mail } from "lucide-react";
 
 function Header() {
   return (
+<<<<<<< HEAD
     <header className="bg-gray-950 sticky top-0 z-10">
+=======
+    <header className="bg-teal-900">
+>>>>>>> 7fa9874a9d188bc67b83193798fd1e457c98785a
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-center">
           <div className="block">

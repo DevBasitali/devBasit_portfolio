@@ -5,6 +5,7 @@ function Services() {
   return (
     <>
       <section id="Services" className="relative bg-gray-900 ">
+<<<<<<< HEAD
         <div className="flex flex-col items-center h-screen sm:h-screen md:h-max lg:h-screen mx-auto max-w-screen-xl px-4">
           <div className=" max-w-xl mt-10 mb-8 text-center">
             <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-4xl lg:text-5xl">
@@ -12,11 +13,23 @@ function Services() {
             </h1>
             <h1 className="text-xl mt-5 font-bold text-teal-500 sm:text-xl md:text-3xl lg:text-3xl">
              Awesome Services for you
+=======
+        <div className="flex flex-col items-center h-screen sm:h-max md:h-max lg:h-screen mx-auto max-w-screen-xl px-4">
+          <div className=" max-w-xl mt-6 mb-8 text-center">
+            <h1 className="text-xl font-extrabold text-white sm:text-xl md:text-4xl lg:text-5xl">
+              Services.
+>>>>>>> 7fa9874a9d188bc67b83193798fd1e457c98785a
             </h1>
           </div>
 
           <div className="container mx-auto">
+<<<<<<< HEAD
             <Card />
+=======
+
+            <Card/>
+
+>>>>>>> 7fa9874a9d188bc67b83193798fd1e457c98785a
           </div>
         </div>
       </section>
